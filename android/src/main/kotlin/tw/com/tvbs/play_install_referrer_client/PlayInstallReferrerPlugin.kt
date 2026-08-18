@@ -1,4 +1,4 @@
-package com.chunkytofustudios.play_install_referrer
+package tw.com.tvbs.play_install_referrer_client
 
 import android.content.Context
 import androidx.annotation.NonNull
@@ -39,7 +39,7 @@ class PlayInstallReferrerPlugin : FlutterPlugin, MethodCallHandler {
         this.context = flutterPluginBinding.applicationContext
         channel = MethodChannel(
             flutterPluginBinding.binaryMessenger,
-            "com.chunkytofustudios.play_install_referrer")
+            "tw.com.tvbs.play_install_referrer_client")
         channel.setMethodCallHandler(this)
     }
 

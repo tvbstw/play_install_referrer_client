@@ -86,7 +86,7 @@ class ReferrerDetails {
 
 class PlayInstallReferrer {
   static const MethodChannel _channel = MethodChannel(
-    'com.chunkytofustudios.play_install_referrer',
+    'tw.com.tvbs.play_install_referrer_client',
   );
 
   /// Get installation referrer details.

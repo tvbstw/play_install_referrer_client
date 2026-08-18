@@ -1,9 +1,9 @@
-name: play_install_referrer_example
-description: Demonstrates how to use the play_install_referrer plugin.
+name: play_install_referrer_client_example
+description: Demonstrates how to use the play_install_referrer_client plugin.
 publish_to: "none"
 
 environment:
-  sdk: ">=3.7.0 <4.0.0"
+  sdk: ^3.12.0
 
 dependencies:
   flutter:
@@ -13,7 +13,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
-  play_install_referrer:
+  play_install_referrer_client:
     path: ../
 
 dev_dependencies:

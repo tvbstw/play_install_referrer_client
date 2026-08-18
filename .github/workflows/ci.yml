@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.47.0
+          channel: stable
+          cache: true
+      - name: Install dependencies
+        run: flutter pub get
+      - name: Check formatting
+        run: dart format --output=none --set-exit-if-changed .
+      - name: Analyze
+        run: flutter analyze
+      - name: Run tests
+        run: flutter test
+      - name: Build AGP 9 built-in Kotlin example
+        working-directory: example
+        # AGP 9.2 embeds Kotlin 2.2.10, while Flutter 3.47's generic KGP
+        # validator requires 2.2.20. The build still exercises AGP built-in
+        # Kotlin and fails if this plugin applies the legacy KGP.
+        run: flutter build apk --debug --android-skip-build-dependency-validation
