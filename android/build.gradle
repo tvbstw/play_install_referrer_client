@@ -1,4 +1,4 @@
-group 'com.chunkytofustudios.play_install_referrer'
+group 'tw.com.tvbs.play_install_referrer_client'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.chunkytofustudios.play_install_referrer'
+    namespace 'tw.com.tvbs.play_install_referrer_client'
 
     compileSdkVersion 36
 

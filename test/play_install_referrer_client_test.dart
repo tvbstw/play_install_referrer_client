@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:play_install_referrer/play_install_referrer.dart';
+import 'package:play_install_referrer_client/play_install_referrer_client.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel(
-    'com.chunkytofustudios.play_install_referrer',
+    'tw.com.tvbs.play_install_referrer_client',
   );
 
   final tester = TestWidgetsFlutterBinding.ensureInitialized();

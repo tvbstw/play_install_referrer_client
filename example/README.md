@@ -1,6 +1,6 @@
-# play_install_referrer_example
+# play_install_referrer_client_example
 
-Demonstrates how to use the play_install_referrer plugin.
+Demonstrates how to use the play_install_referrer_client plugin.
 
 ## Getting Started
 

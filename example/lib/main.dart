@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:play_install_referrer/play_install_referrer.dart';
+import 'package:play_install_referrer_client/play_install_referrer_client.dart';
 
 void main() => runApp(MyApp());
 

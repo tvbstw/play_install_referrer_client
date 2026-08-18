@@ -27,7 +27,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace 'com.chunkytofustudios.play_install_referrer_example'
+    namespace 'tw.com.tvbs.play_install_referrer_client_example'
     compileSdkVersion 36
     ndkVersion = "27.3.13750724"
 
@@ -41,7 +41,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.chunkytofustudios.play_install_referrer_example"
+        applicationId "tw.com.tvbs.play_install_referrer_client_example"
         minSdkVersion 24
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()

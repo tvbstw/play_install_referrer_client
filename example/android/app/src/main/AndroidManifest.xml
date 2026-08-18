@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:name="${applicationName}"
-        android:label="android_play_install_referrer_example"
+        android:label="play_install_referrer_client_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

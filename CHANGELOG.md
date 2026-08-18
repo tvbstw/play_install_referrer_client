@@ -1,7 +1,9 @@
-## 0.6.0
-* BREAKING: Raises the minimum supported SDK versions to Flutter 3.44 and Dart 3.12.
+## 1.0.0
+* Initial TVBS-maintained release as `play_install_referrer_client`.
+* Requires Flutter 3.44 or later and Dart 3.12 or later.
 * Migrates the Android plugin and example app to AGP 9 built-in Kotlin.
 * Updates the example app to Android Gradle Plugin 9.2.0 and Gradle 9.4.1.
+* Retains the BSD-2-Clause license and credits from the original projects.
 
 ## 0.5.0
 * BREAKING: Plugin is renamed AndroidPlayInstallReferrer -> PlayInstallReferrer
