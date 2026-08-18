@@ -1,3 +1,8 @@
+## 0.6.0
+* BREAKING: Raises the minimum supported SDK versions to Flutter 3.44 and Dart 3.12.
+* Migrates the Android plugin and example app to AGP 9 built-in Kotlin.
+* Updates the example app to Android Gradle Plugin 9.2.0 and Gradle 9.4.1.
+
 ## 0.5.0
 * BREAKING: Plugin is renamed AndroidPlayInstallReferrer -> PlayInstallReferrer
 * Updates Gradle and AGP
